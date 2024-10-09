@@ -9,7 +9,7 @@ import { ProductsProvider } from "./context/ProductsProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Tickpro">
       <ProductsProvider>
         <CartProvider>
           <Routes>
