@@ -73,7 +73,7 @@ const PaystackPayment = () => {
       <HomeHeader />
       <div className="payment-container">
         <div className="paystack_img">
-          <img src="src/images/paystack.png" alt="paystack" />
+          <img src="/images/paystack.png" alt="paystack" />
         </div>
         <h2>
           Paystack Payment <span>₦ {formData.amount}</span>

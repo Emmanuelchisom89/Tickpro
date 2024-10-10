@@ -38,7 +38,7 @@ const Cart = () => {
   // Empty cart content
   const emptyCartContent = (
     <div className="empty-cart">
-      <img src="src/images/emptycart2.jpg" alt="Empty Cart" />
+      <img src="/images/emptycart2.jpg" alt="Empty Cart" />
       <h3>Your cart is currently empty, Keep shopping.</h3>
       <button type="button" onClick={() => navigate("/products")}>
         Continue Shopping

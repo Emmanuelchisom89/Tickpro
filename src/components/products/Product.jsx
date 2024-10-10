@@ -1,6 +1,6 @@
 import React from "react";
-import { useMemo } from "react";
-import { Link } from "react-router-dom";
+/* import { useMemo } from "react";
+ */import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }) => {
@@ -10,9 +10,12 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }) => {
     return <div className="error-message"><h3><FontAwesomeIcon icon={faCircleExclamation} className="error-message-icon" /> {product.name}</h3></div>;
   }
 
-  const img = useMemo(() => {
+/*   const img = useMemo(() => {
     return new URL(`../../images/${product.sku}.jpg`, import.meta.url).href;
   }, [product.sku]);
+ */
+  
+  const img = `/images/${product.sku}.jpg`;
 
   const onAddToCart = () => {
     dispatch({ type: REDUCER_ACTIONS.ADD, payload: { ...product, qty: 1 } });

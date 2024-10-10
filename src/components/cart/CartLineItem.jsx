@@ -3,8 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 const CartLineItem = ({ item, dispatch, REDUCER_ACTIONS }) => {
-  const img = new URL(`../../images/${item.sku}.jpg`, import.meta.url).href;
-
+  const img = `/images/${item.sku}.jpg`
+/*   const img = new URL(`../../images/${item.sku}.jpg`, import.meta.url).href;
+ */
   const lineTotal = item.qty * item.price;
 
   const highestQty = 20 > item.qty ? 20 : item.qty;

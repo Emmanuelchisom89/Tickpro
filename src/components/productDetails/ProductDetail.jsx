@@ -24,13 +24,22 @@ const ProductDetail = () => {
     return <p>Product not found</p>;
   }
 
-  const imageUrls = [
+/*   const imageUrls = [
     new URL(`../../images/${product.sku}.jpg`, import.meta.url).href,
     new URL(`../../images/${product.sku}-2.jpg`, import.meta.url).href,
     new URL(`../../images/${product.sku}-3.jpg`, import.meta.url).href,
     new URL(`../../images/${product.sku}-4.jpg`, import.meta.url).href,
     new URL(`../../images/${product.sku}-5.jpg`, import.meta.url).href,
   ];
+ */
+  
+  const imageUrls = [
+  `/images/${product.sku}.jpg`,
+  `/images/${product.sku}-2.jpg`,
+  `/images/${product.sku}-3.jpg`,
+  `/images/${product.sku}-4.jpg`,
+  `/images/${product.sku}-5.jpg`,
+];
 
   const handleAddToCart = () => {
     dispatch({ type: REDUCER_ACTIONS.ADD, payload: { ...product, qty: 1 } });
@@ -84,8 +93,9 @@ const ProductDetail = () => {
               .replace("NGN", "₦")}
           </p>
           <div className="card-review-box">
-            <img src="/src/images/reviews.svg" alt="Reviews Icon" />
-            <span className="reviews-count">({product.rating})</span>
+            <img src="/images/reviews.svg" alt="Reviews Icon" />
+{/*             <img src="/src/images/reviews.svg" alt="Reviews Icon" />
+ */}            <span className="reviews-count">({product.rating})</span>
           </div>
 
           <p className="mid ship">+ 8% for insured shipping to location.</p>
