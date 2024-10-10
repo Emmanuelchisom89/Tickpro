@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 const CartLineItem = ({ item, dispatch, REDUCER_ACTIONS }) => {
-  const img = `/public/images/${item.sku}.jpg`
+  const img = `/Tickpro/images/${item.sku}.jpg`
 /*   const img = new URL(`../../images/${item.sku}.jpg`, import.meta.url).href;
  */
   const lineTotal = item.qty * item.price;

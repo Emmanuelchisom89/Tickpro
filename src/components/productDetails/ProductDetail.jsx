@@ -34,11 +34,11 @@ const ProductDetail = () => {
  */
   
   const imageUrls = [
-  `/public/images/${product.sku}.jpg`,
-  `/public/images/${product.sku}-2.jpg`,
-  `/public/images/${product.sku}-3.jpg`,
-  `/public/images/${product.sku}-4.jpg`,
-  `/public/images/${product.sku}-5.jpg`,
+  `/Tickpro/images/${product.sku}.jpg`,
+  `/Tickpro/images/${product.sku}-2.jpg`,
+  `/Tickpro/images/${product.sku}-3.jpg`,
+  `/Tickpro/images/${product.sku}-4.jpg`,
+  `/Tickpro/images/${product.sku}-5.jpg`,
   
 ];
 
@@ -94,7 +94,7 @@ const ProductDetail = () => {
               .replace("NGN", "₦")}
           </p>
           <div className="card-review-box">
-            <img src="/public/images/reviews.svg" alt="Reviews Icon" />
+            <img src="/Tickpro/images/reviews.svg" alt="Reviews Icon" />
 {/*             <img src="/src/images/reviews.svg" alt="Reviews Icon" />
  */}            <span className="reviews-count">({product.rating})</span>
           </div>

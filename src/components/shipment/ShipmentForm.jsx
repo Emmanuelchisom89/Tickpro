@@ -196,14 +196,14 @@ const ShipmentForm = () => {
               {cart.map((item) => (
                 <li key={item.sku} className="order-item">
                   <img
-                    src={`/public/images/${item.sku}.jpg`}
+                    src={`/Tickpro/images/${item.sku}.jpg`}
                     alt={item.name}
                     className="order-item-image"
                   />
                   <div className="order-item-details">
                     <p>{item.name}</p>
                     <div className="card-review-box">
-                      <img src="/public/images/reviews.svg" alt="Reviews Icon" />{" "}
+                      <img src="/Tickpro/images/reviews.svg" alt="Reviews Icon" />{" "}
                       <span className="reviews-count">
                         ({getProductReview(item.sku)})
                       </span>

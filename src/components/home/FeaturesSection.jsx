@@ -12,7 +12,7 @@ const FeaturesSection = () => {
             <div className="dot"></div>
             <h3>Fast Delivery</h3>
           </div>
-          <img src="/public/images/speed4.jpg" alt="" />
+          <img src="/Tickpro/images/speed4.jpg" alt="" />
           <p>Get your products delivered in no time.</p>
         </div>
         <div
@@ -24,7 +24,7 @@ const FeaturesSection = () => {
             <div className="dot"></div>
             <h3>Secure Payment</h3>
           </div>
-          <img src="/public/images/secure.jpg" alt="" />
+          <img src="/Tickpro/images/secure.jpg" alt="" />
           <p>Safe and secure payment options.</p>
         </div>
         <div
@@ -36,7 +36,7 @@ const FeaturesSection = () => {
             <div className="dot"></div>
             <h3>Easy Returns</h3>
           </div>
-          <img src="/public/images/delivery.jpg" alt="" />
+          <img src="/Tickpro/images/delivery.jpg" alt="" />
           <p>Hassle-free returns within 30 days.</p>
         </div>
       </div>

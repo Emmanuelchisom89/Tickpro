@@ -4,7 +4,7 @@ const Badge = () => {
       <div className="row">
         <div className="column">
           <img
-            src="/public/images/customer-service.png"
+            src="/Tickpro/images/customer-service.png"
             alt="Millenary Watches Excellent Customer Service"
           />
           <h2>Client Support</h2>
@@ -20,7 +20,7 @@ const Badge = () => {
 
         <div className="column">
           <img
-            src="/public/images/authenticity.png"
+            src="/Tickpro/images/authenticity.png"
             alt="Millenary Watches Authentic Watches"
           />
           <h2>Authenticity</h2>
@@ -36,7 +36,7 @@ const Badge = () => {
 
         <div className="column">
           <img
-            src="/public/images/fair-price.png"
+            src="/Tickpro/images/fair-price.png"
             alt="Millenary Watches Fair Prices"
           />
           <h2>Fair Prices</h2>
