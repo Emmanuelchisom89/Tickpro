@@ -27,7 +27,7 @@ const About = () => {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          <img src="/images/about_image.jpg" alt="About Us" />
+          <img src="/pubilc/images/about_image.jpg" alt="About Us" />
         </div>
 
         <div

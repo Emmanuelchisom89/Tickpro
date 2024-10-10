@@ -15,7 +15,7 @@ const Product = ({ product, dispatch, REDUCER_ACTIONS, inCart }) => {
   }, [product.sku]);
  */
   
-  const img = `/images/${product.sku}.jpg`;
+  const img = `/public/images/${product.sku}.jpg`;
 
   const onAddToCart = () => {
     dispatch({ type: REDUCER_ACTIONS.ADD, payload: { ...product, qty: 1 } });

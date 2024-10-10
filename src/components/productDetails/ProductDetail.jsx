@@ -34,11 +34,12 @@ const ProductDetail = () => {
  */
   
   const imageUrls = [
-  `/images/${product.sku}.jpg`,
-  `/images/${product.sku}-2.jpg`,
-  `/images/${product.sku}-3.jpg`,
-  `/images/${product.sku}-4.jpg`,
-  `/images/${product.sku}-5.jpg`,
+  `/public/images/${product.sku}.jpg`,
+  `/public/images/${product.sku}-2.jpg`,
+  `/public/images/${product.sku}-3.jpg`,
+  `/public/images/${product.sku}-4.jpg`,
+  `/public/images/${product.sku}-5.jpg`,
+  
 ];
 
   const handleAddToCart = () => {
@@ -93,7 +94,7 @@ const ProductDetail = () => {
               .replace("NGN", "₦")}
           </p>
           <div className="card-review-box">
-            <img src="/images/reviews.svg" alt="Reviews Icon" />
+            <img src="/public/images/reviews.svg" alt="Reviews Icon" />
 {/*             <img src="/src/images/reviews.svg" alt="Reviews Icon" />
  */}            <span className="reviews-count">({product.rating})</span>
           </div>
