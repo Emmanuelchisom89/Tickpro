@@ -2725,6 +2725,10 @@ img {
     font-size: 9px;
   }
 
+  .hero__content {
+    top: 55%;
+  }
+
   .feature {
     width: 100%;
   }
@@ -2746,6 +2750,10 @@ img {
   .thumbnail {
     width: 43px;
     height: 43px;
+  }
+
+  .empty-cart {
+    margin-bottom: 20px;
   }
 
 }
