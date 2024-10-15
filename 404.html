@@ -1,5 +1,26 @@
-<script type="text/javascript">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0;url=/Tickpro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickpro</title>
+    <script type="text/javascript">
+        var segments = window.location.pathname.split('/');
+        var redirect = '/' + segments.slice(2).join('/');
+        window.location.href = window.location.origin + '/Tickpro' + redirect;
+    </script>
+</head>
+
+<body>
+    Redirecting...
+</body>
+
+</html>
+
+<!-- <script type="text/javascript">
     var segments = window.location.pathname.split('/');
     var redirect = '/' + segments[segments.length - 1];
     window.location.href = window.location.origin + '/Tickpro' + redirect;
-</script>
+</script> -->
