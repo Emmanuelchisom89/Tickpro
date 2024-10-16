@@ -10,7 +10,7 @@ import { ProductsProvider } from "./context/ProductsProvider";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HashRouter basename="/Tickpro">
+    <HashRouter>
       <ProductsProvider>
         <CartProvider>
           <Routes>
