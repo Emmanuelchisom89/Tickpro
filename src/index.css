@@ -60,6 +60,7 @@ img {
 /* HEADER */
 .header {
   position: sticky;
+  width: 100%;
   background-color: #BA5D2C;
   top: 0;
   margin: 0;
